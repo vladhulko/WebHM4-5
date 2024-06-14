@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Замовлення піци</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="badge">
+        <span class="badge-name1">Pizza</span>
+        <span class="badge-name2">KMA</span>
+        <img src="discount.svg" alt="badge" class="ending">
+    </div>
+    <div class="upper-info">
+        <span class="text1">(044) 222 5 222</span>
+        <span class="text2">24 години/7 днів на тиждень</span>
+        <span class="text3">Безкоштовна доставка піци</span>
+        <button class="login">Ввійти</button>
+    </div>
+    <div class="lower-info">
+        <span>Піца</span>
+    </div>
+</header>
+<main class="container">
+    <section class="content">
+        <div class="all-pizzas">
+            <span class="filter-name">Усі піци <span class="total-quantity" id="amount-main">8</span></span>
+        </div>
+        <div class="filters">
+            <button content="all">Усі</button>
+            <button content="meat">М'ясні</button>
+            <button content="pineapple">З ананасами</button>
+            <button content="mushroom">З грибами</button>
+            <button content="seafood">З морепродуктами</button>
+            <button content="vegan">Вега</button>
+        </div>
+        <div class="pizza-menu" id="pizza-menu">
+        </div>
+        <div class="lower-badge">
+            <span>ЦЬОГО</span>
+            <span>ТИЖНЯ</span>
+            <span>НА ВСЕ</span>
+            <span class="orange">................</span>
+            <span class="white">- 20%</span>
+            <img src="discount.svg" alt="badge" class="starting">
+        </div>
+    </section>
+    <aside class="side-bar">
+        <div class="order">
+            <span class="ordering">Замовлення </span>
+            <span class="order-quantity">0</span>
+            <button class="clear-order">Очистити замовлення</button>
+        </div>
+        <div class="order-items">
+        </div>
+        <div class="order-summary">
+            <div class="order-sum">
+                <span class="sum-text">Сума замовлення</span>
+                <span class="sum">0 грн</span>
+            </div>
+            <button class="order-button">Замовити</button>
+        </div>
+    </aside>
+</main>
+
+<footer>
+    <div class="footer-info">
+        <span class="footer-text1">Pizza.22 - Практичний проєкт в межах курсу JavaScript в Києво-Могилянській академії</span>
+        <span class="footer-text2">Доставка піци не здійснюється</span>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
